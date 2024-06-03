@@ -1,0 +1,17 @@
+Aluno: Daniel Henrique Alves Bicalho Dias
+
+1°) Instale o Python no computador atravez da microsoft store.
+2°) No CMD execute: 
+pip install pymongo
+pip install tkinter
+3°) Instale o MongoDB na máquina e abra-o.
+4°) No MongoDB crie um banco chamado "trabalho1" e uma coleção chamada "usuarios"
+5°) Verifique no MongoDB a se URI é "mongodb://localhost:27017/" caso não seja altere no mongoDB para essa, ou no código python mude a linha "client = MongoClient("mongodb://localhost:27017/")" com a URI certa dentro dos parêntese. 
+5°) Execute o Trabalho1.py com dois cliques (tem que ter instalado o python como solicitado na etapa 1).
+6°) Ou pode executar indo até o diretorio onde se encontra o arquivo.py no CMD e inserindo o seguinte comando: pythonw Trabalho1.py (isso fará com que não seja aberta uma nova aba do CMD que seria a referente a execução do arquivo.py).
+7°) Ao executar o código minimize a tela do CMD (caso utilizado dois cliques ao executar) e teste todas as funções através do menu intuitivo.
+8°) Primeiro Cadastre os usuários e depois faça atualizações, exclusões e consultas. A consulta geral te ajudará a lembrar os CPF e a ter uma visão mais ampla.
+
+Observações: O CPF dos usuários é o _id no MongoDB.
+
+Video utilizando o código: https://youtu.be/O7vpvGW25UM
